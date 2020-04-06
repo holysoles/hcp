@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1122</width>
+    <height>279</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="widget_2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>70</y>
+     <width>1017</width>
+     <height>200</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>200</height>
+    </size>
+   </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>81</red>
+         <green>81</green>
+         <blue>81</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>81</red>
+         <green>81</green>
+         <blue>81</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>81</red>
+         <green>81</green>
+         <blue>81</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>81</red>
+         <green>81</green>
+         <blue>81</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_3">
+    <item row="0" column="5">
+     <widget class="QPushButton" name="openCart_2">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="text">
+       <string>Open Cart</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QWidget" name="inputbox_2" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>500</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>120</height>
+       </size>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_4">
+       <item row="4" column="2">
+        <widget class="QLabel" name="portLabel_2">
+         <property name="text">
+          <string>Port:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLineEdit" name="urlInput_2"/>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="linkLabel_2">
+         <property name="text">
+          <string>Link URL:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLineEdit" name="proxy_2"/>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="proxyLabel_2">
+         <property name="text">
+          <string>Proxy IP:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="3">
+        <widget class="QLineEdit" name="proxyport_2">
+         <property name="maximumSize">
+          <size>
+           <width>60</width>
+           <height>40</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QWidget" name="runstopbox_2" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>50</height>
+       </size>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <widget class="QPushButton" name="run_2">
+         <property name="text">
+          <string>Run</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="stop_2">
+         <property name="text">
+          <string>Stop</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="4" column="5">
+     <widget class="QLabel" name="invalidUrl_2">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QComboBox" name="sizeBox_2">
+      <property name="currentText">
+       <string/>
+      </property>
+      <property name="maxCount">
+       <number>50</number>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="previewImage_2">
+      <property name="maximumSize">
+       <size>
+        <width>150</width>
+        <height>100</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>preview</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
